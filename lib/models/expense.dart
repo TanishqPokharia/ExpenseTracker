@@ -28,5 +28,6 @@ class Expense {
   final DateTime date;
   final Category category;
 
-  String get formattedDate => (formatter.format(date));
+  String get formattedDate => (formatter.format(
+      date)); //we defined a variable and assigned a function to determine its value at the same time using get and arrow operator
 }
